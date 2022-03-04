@@ -1,0 +1,1 @@
+this directory contains the images which are imported in markdown files
