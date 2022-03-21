@@ -12,21 +12,21 @@
 
 #### Main Motivation on Heterogeneous Opportunity: 
 
-* ![](/home/rishabh/rj_research/paper_summaries/isca20/images/fig4-gpu_vs_cpu.png) 
+* ![](./images/fig4-gpu_vs_cpu.png) 
 
 	* For GPU run, sweeping over different batch sizes [1,1024] to compare GPU over CPU. It differs for each  RM. 
 	* Bottom figure compares the compute and data transfer. 
 
-* ![](/home/rishabh/rj_research/paper_summaries/isca20/images/fig5-query_arrival_pattern.png) 
+* ![](./images/fig5-query_arrival_pattern.png) 
 	* Deciding the threshold (TH) query size: if actual query size is lower than TH, execute on CPU else on GPU. 
 
-* ![](/home/rishabh/rj_research/paper_summaries/isca20/images/fig6-p75_gpu_vs_cpu.png) 
+* ![](./images/fig6-p75_gpu_vs_cpu.png) 
 	* Deciding the benefit of one TH for heterogenity 
 	* p75 query size is ~220. 
 	* CPU performs better or similar to GPU for: RMC1, DIN, and DIEN. 
 	
 #### Main Design:
-* ![](/home/rishabh/rj_research/paper_summaries/isca20/images/fig8-design.png)  
+* ![](./images/fig8-design.png)  
 
 #### Takeaways: 
 *  For a fixed CPU, GPU configuration, the paper profiles various RMs/apps and shows the scope of CPU GPU. 
