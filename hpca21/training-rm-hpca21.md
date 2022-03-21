@@ -1,4 +1,5 @@
 ## CPU GPU Profiling for Training Recommendation Models
+Link: https://arxiv.org/pdf/2011.05497.pdf
 
 #### Hardware: 
 ![](./images/table-hw-config.png) 
